@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "properties": {
+    "id": {
+      "type": "integer",
+      "description": "id"
+    },
+    "price": {
+      "type": "number",
+      "description": "price"
+    },
+    "description": {
+      "type": "string",
+      "description": "desc"
+    },
+    "image": {
+      "type": "string",
+      "description": "url"
+    }
+  },
+  "required": ["id", "price", "description", "image"]
+}
